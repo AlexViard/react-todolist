@@ -1,0 +1,10 @@
+@use 'src/styles/vars';
+
+.counter {
+  margin: 2rem 0 1rem;
+  font-weight: vars.$font-weight-subtitle;
+  font-size: vars.$font-size-subtitle;
+  color: vars.$color-light;
+  border-bottom: 1px solid vars.$color-light;
+  padding: (vars.$gutter /2)rem 0;
+}

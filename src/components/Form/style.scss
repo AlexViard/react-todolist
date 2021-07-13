@@ -1,0 +1,19 @@
+@use 'src/styles/vars';
+@use 'sass:color';
+
+.form-item {
+  width: 100%;
+  color: vars.$color-light;
+  font-size: vars.$font-size-title;
+  font-weight: vars.$font-weight-title;
+  background: vars.$color-dark;
+  border: 1px solid color.scale(vars.$color-dark, $lightness: -10%);
+  box-shadow: inset 0 0 25px rgba(0,0,0,.1);
+  padding: vars.$gutter;
+  border-radius: 10px;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }  
+}
+

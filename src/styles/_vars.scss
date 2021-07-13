@@ -1,0 +1,19 @@
+@use 'sass:color';
+
+$primary-color: #7a3535;
+$color-dark: color.scale($primary-color, $lightness: -10%);
+$color-light: #ececec;
+
+$item-background-color: #eee;
+
+$gutter: 1em;
+
+$font-weight-text: 200;
+$font-weight-subtitle: 500; 
+$font-weight-title: 700;
+
+$font-size-text: 1.3em;
+$font-size-subtitle: 1.6em;
+$font-size-title: 2em;
+
+

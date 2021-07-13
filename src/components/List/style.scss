@@ -1,0 +1,16 @@
+@use 'src/styles/vars';
+
+.list-item {
+  display: block;
+  background: vars.$item-background-color;
+  border-radius: 3px;
+  padding: vars.$gutter;
+  margin: 0.5rem 0;
+  font-weight: vars.$font-weight-text;
+  font-size: vars.$font-size-text;
+
+  &--done {
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+}
